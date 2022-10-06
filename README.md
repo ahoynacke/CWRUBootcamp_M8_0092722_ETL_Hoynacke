@@ -1,4 +1,6 @@
 # CWRUBootcamp_M8_0092722_ETL_Hoynacke
+## Note to Grader: 
+I had to compress the resource folder due to size of files - I hope that does not affect the final submission 
 
 ## Background 
 Amazing Prime loves the dataset and wants to keep it updated on a daily basis. Britta needs your help to create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. You’ll need to refactor the code from this module to create one function that takes in the three files—Wikipedia data, Kaggle metadata, and the MovieLens rating data—and performs the ETL process by adding the data to a PostgreSQL database.
@@ -36,3 +38,6 @@ Deliverable 4: Create the Movie Database
 1. The data from the movies_df DataFrame replaces the current data in the movies table in the SQL database, as determined by the movies_query.png. 
 2. The data from the MovieLens rating CSV file is added to the ratings table in the SQL database, as determined by the ratings_query.png. 
 3. The elapsed time to add the data to the database is displayed in the ETL_create_database.ipynb file. 
+
+## Project Summary - Analysis 
+For this project we had 3 difference resources in which we cleaned and re structured. Using the ETL method we extracted, transformed and loaded the data. We were merging two different types of data for this project - json and csv. Each file submitted as a deliverable built on top of eachother resulting in a clean dataset. 
